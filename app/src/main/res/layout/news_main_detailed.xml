@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/newsText"
+        android:textSize="30sp"
+        android:text="News title here and max lines as mentioed is aroudn"
+        android:lineSpacingExtra="1dp"
+        android:maxLines="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/catogory"
+        android:text="Subject"
+        android:layout_width="78dp"
+        android:layout_height="19dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:rotation="90"
+        android:scaleType="fitXY"
+        android:background="@color/colorLightAccent"/>
+
+</RelativeLayout>
